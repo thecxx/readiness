@@ -1,0 +1,8 @@
+# ide
+/.vscode/
+/.idea/
+/*.iml
+
+# some files or directories
+/vendor/
+/.phpunit.result.cache
