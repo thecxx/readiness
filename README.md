@@ -17,7 +17,7 @@ func main() {
         func(key string) (interface{}, error) {
             return "hello world", nil
         },
-        2*time.Second,)
+        2*time.Second)
 
     value := readiness.Get("test_key")
 }
@@ -40,7 +40,7 @@ func main() {
         func(key string) (interface{}, error) {
             return "hello world", nil
         },
-        2*time.Second,)
+        2*time.Second)
 
     value := ready.Get("test_key")
 }
